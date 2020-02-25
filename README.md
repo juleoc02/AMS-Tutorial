@@ -45,3 +45,6 @@ Interacting with others via GitHub.
 * In your terminal, navigate somewhere other than the git repository you have been working in (say, to your desktop).
 * Navigate there and type `git clone https://github.com/CrossXProduct/AMS-Tutorial.git`.
 * This is similar to `git init` except instead of making a blank repository, you are creating one that starts as a copy of the one on Github.
+* Open your text editor and make a new file with whatever contents you like. Name it `$yourname.txt`. (So everyone makes something with a different name!).
+* Save and commit your file.
+* **Now, the most important part of this tutorial:** pull the online version of the repository, and then push your commit to it. So run `git pull` to get the current version of the online repository onto your local machine. Then run `git push`.

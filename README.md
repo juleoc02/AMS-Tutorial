@@ -1,9 +1,9 @@
-= AMS Notes on Git =
+# AMS Notes on Git #
 
 Source for most of this:
 https://www.atlassian.com/git
 
-== Basic Ideas ==
+## Basic Ideas ##
 
 Git is a Distributed Version Control System.
 The basic unit is a _repository_ and its _branches_, and the key operations are _committing_, _pushing_, and _pulling/merging_.
@@ -15,7 +15,7 @@ The basic unit is a _repository_ and its _branches_, and the key operations are 
 * Different branches can be combined back together in a number of ways (this is where people usually get confused!).
 * GitHub (and Bitbucket, Gitlab, et cetera) are online services that let you maintain a branch of your project on a remote server. Most importantly, they allow multiple people to have access to the same repository.
 
-== Usage ==
+## Usage ##
 Installing on Linux: `sudo apt get install git` (or similar)
 Installing on Mac: https://www.atlassian.com/git/tutorials/install-git?section=git-for-mac-installer
 Installing on Windows: https://www.atlassian.com/git/tutorials/install-git#windows

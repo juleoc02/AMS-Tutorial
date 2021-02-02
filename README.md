@@ -46,7 +46,7 @@ You can get the full details of any git command by running `man git-$commandname
 * This is similar to `git init` except instead of making a blank repository, you are creating one that starts as a copy of the one on Github.
 * Open your text editor and make a new file with whatever contents you like. Name it `$yourname.txt`. (So everyone makes something with a different name!).
 * Save and commit your file.
-* **Now, the most important part of this tutorial:** pull the online version of the repository, and then push your commit to it. So run `git pull` to get the current version of the online repository onto your local machine. Then run `git push` to send *your* commit to the server.
+* **Now, the most important part of this tutorial:** pull the online version of the repository (note: everyone must be added to this repository as user on Github first, otherwise forking and pull requests are required), and then push your commit to it. So run `git pull` to get the current version of the online repository onto your local machine. Then run `git push` to send *your* commit to the server.
 * One everyone has made a push, run `git pull` again. You should see a bunch of new files appear.
 * Run `git log`. This will show everyone's commit messages.
 * (The reason for running `git pull` first is that it keeps a more linear working tree. In particular, if there is a merge conflict, it is easier for you to fix it on your local machine before sending your commits online.)
